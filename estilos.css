@@ -5,12 +5,6 @@
     font-family: "Roboto Mono";
 }
 
-@media (min-width: 768px) {
-    .menu-items {
-        flex-direction: row;
-    }
-    
-}
 
 .menu {
     background-color: darksalmon;
@@ -24,7 +18,7 @@
 }
 
 .logo {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     font-weight: bold;
     margin-left: 10px;
@@ -61,13 +55,14 @@
 .portada {
     background-image: url(./imagenes/fondo-bombillas.jpg);
     height: 75vh;
-    
+  
 }
 
 .portada-texto {
     font-size: bold;
     color: white;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .portada-texto h3 {
@@ -88,7 +83,7 @@
     background: rgb(86, 92, 91);
     padding: 10px;
     border-radius: 3px;
-    opacity: 50%;
+    
 }
 
 
